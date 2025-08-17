@@ -29,7 +29,7 @@ public class BaseClass {
     @Parameters({"browser","os"})
     @BeforeClass(groups = {"sanity","regression","master","datadriven"})
     public void setup(String br,String os) throws IOException {
-        // Loading config properties file
+        // this is for Loading config properties file
         FileInputStream file = new FileInputStream("./src/test/resources/config.properties");
         properties = new Properties();
         properties.load(file);
