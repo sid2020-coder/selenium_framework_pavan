@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="master" />
+          <!--  <include name="regression"/> -->
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="Utilities.ExtentReportMgr"></listener>
+    </listeners>
+    <test name="OpenCart">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC001AccountRegistrationTest"/>
+            <class name="testCases.TC002LoginTest"/>
+            <!--<class name="testCases.TC003LoginUsingDT"/>-->
+        </classes>
+    </test>
+</suite>
