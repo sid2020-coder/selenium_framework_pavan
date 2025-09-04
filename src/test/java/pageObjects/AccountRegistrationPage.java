@@ -10,12 +10,10 @@ public class AccountRegistrationPage extends BasePage{
     }
     @FindBy(xpath="//input[@id='input-firstname']")
     WebElement txtFirstname;
-
     @FindBy(xpath="//input[@id='input-lastname']")
     WebElement txtLastname;
     @FindBy(xpath="//input[@id='input-email']")
     WebElement txtEmail;
-
     @FindBy(xpath="//input[@id='input-telephone']")
     WebElement txtTelephone;
 

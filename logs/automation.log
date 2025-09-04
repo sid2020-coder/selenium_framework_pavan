@@ -1,18 +1,12 @@
-2025-08-17 10:55:44 INFO  TC001AccountRegistrationTest:20 - ******** Starting TC001AccountRegistrationTest **********
-2025-08-17 10:55:44 INFO  TC001AccountRegistrationTest:24 - ******** Click on MyAccount link **********
-2025-08-17 10:55:44 INFO  TC001AccountRegistrationTest:26 - ******** Click on register link **********
-2025-08-17 10:55:45 INFO  TC001AccountRegistrationTest:31 - ******** Providing customer details **********
-2025-08-17 10:55:46 INFO  TC001AccountRegistrationTest:44 - ******** Validation **********
-2025-08-17 10:55:53 INFO  TC002LoginTest:14 - ***** starting TC002LoginTest ******** 
-2025-08-17 22:19:43 INFO  TC001AccountRegistrationTest:20 - ******** Starting TC001AccountRegistrationTest **********
-2025-08-17 22:19:43 INFO  TC001AccountRegistrationTest:24 - ******** Click on MyAccount link **********
-2025-08-17 22:19:43 INFO  TC001AccountRegistrationTest:26 - ******** Click on register link **********
-2025-08-17 22:19:44 INFO  TC001AccountRegistrationTest:31 - ******** Providing customer details **********
-2025-08-17 22:19:46 INFO  TC001AccountRegistrationTest:44 - ******** Validation **********
-2025-08-17 22:19:52 INFO  TC002LoginTest:14 - ***** starting TC002LoginTest ******** 
-2025-08-17 22:24:42 INFO  TC001AccountRegistrationTest:20 - ******** Starting TC001AccountRegistrationTest **********
-2025-08-17 22:24:42 INFO  TC001AccountRegistrationTest:24 - ******** Click on MyAccount link **********
-2025-08-17 22:24:42 INFO  TC001AccountRegistrationTest:26 - ******** Click on register link **********
-2025-08-17 22:24:43 INFO  TC001AccountRegistrationTest:31 - ******** Providing customer details **********
-2025-08-17 22:24:45 INFO  TC001AccountRegistrationTest:44 - ******** Validation **********
-2025-08-17 22:24:51 INFO  TC002LoginTest:14 - ***** starting TC002LoginTest ******** 
+2025-09-04 12:09:08 INFO  TC001AccountRegistrationTest:20 - ******** Starting TC001AccountRegistrationTest **********
+2025-09-04 12:09:09 INFO  TC001AccountRegistrationTest:24 - ******** Click on MyAccount link **********
+2025-09-04 12:09:09 INFO  TC001AccountRegistrationTest:26 - ******** Click on register link **********
+2025-09-04 12:09:10 INFO  TC001AccountRegistrationTest:31 - ******** Providing customer details **********
+2025-09-04 12:09:12 INFO  TC001AccountRegistrationTest:44 - ******** Validation **********
+2025-09-04 12:09:21 INFO  TC002LoginTest:14 - ***** starting TC002LoginTest ******** 
+2025-09-04 12:44:34 INFO  TC001AccountRegistrationTest:20 - ******** Starting TC001AccountRegistrationTest **********
+2025-09-04 12:44:34 INFO  TC001AccountRegistrationTest:24 - ******** Click on MyAccount link **********
+2025-09-04 12:44:35 INFO  TC001AccountRegistrationTest:26 - ******** Click on register link **********
+2025-09-04 12:44:35 INFO  TC001AccountRegistrationTest:31 - ******** Providing customer details **********
+2025-09-04 12:44:37 INFO  TC001AccountRegistrationTest:44 - ******** Validation **********
+2025-09-04 12:44:43 INFO  TC002LoginTest:14 - ***** starting TC002LoginTest ******** 

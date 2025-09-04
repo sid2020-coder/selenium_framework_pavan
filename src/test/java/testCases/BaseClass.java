@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -18,11 +19,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Properties;
 
 public class BaseClass {
     public static WebDriver driver;
+
     public Logger logger;
 
     public Properties properties;
@@ -36,10 +40,12 @@ public class BaseClass {
 
 
         logger = LogManager.getLogger(this.getClass());
+
         switch (br.toLowerCase())
         {
             case "chrome" : driver = new ChromeDriver();break;
             case "edge" : driver = new EdgeDriver();break;
+            case "firefox" : driver = new FirefoxDriver();break;
             default: System.out.println("Invalid browser ");return;
         }
 
@@ -68,7 +74,7 @@ public class BaseClass {
     {
         return (RandomStringUtils.randomAlphabetic(3)+"@"+RandomStringUtils.randomNumeric(3));
     }
-    //screen shot
+    //screenshot
     public String captureScreen(String tname) throws IOException {
 
         String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
